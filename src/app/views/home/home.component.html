@@ -1,0 +1,387 @@
+<app-header></app-header>
+
+    <div class="topo2">
+
+        <div class="search-box">
+            <div class="caixa-pesquisar">
+                <input type="text" class="search-txt" placeholder="Pesquisar...">
+                    <a href="#">
+                        <form action="https://www.google.com.br/search" method="get">
+                            <button><img src="/assets/images/icons/Search.svg" alt="Lupa" width="20px" height="20px"></button>
+                        </form>
+                    </a>
+            </div>
+        </div>
+
+        <section class="banner">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/assets/images/slider-img/banner-img.svg" alt="Banner1">
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/images/slider-img/banner3.svg"  alt="Banner2">
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/images/slider-img/banner4.svg"  alt="Banner3">
+                </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </section>
+    </div>
+
+    <main>
+
+    <section class="container">
+        <h2 id="categorias">CATEGORIAS</h2>
+        <div class="categorias">
+            
+            <div class="categoria-foto">
+                <div class="categorias-btn">
+                    <a class="active" href="#"><img src="/assets/images/img-categorias/categoria1.svg" alt="mouse" width= "150px" height= "150px"></a>
+                    <a href="#"><img src="/assets/images/img-categorias/categoria2.svg" alt="headset" width= "150px" height= "150px"></a>
+                    <a href="#"><img src="/assets/images/img-categorias/categoria3.svg" alt="microfone" width= "150px" height= "150px"></a>    
+                    <br>
+                    <a href="#"><img src="/assets/images/img-categorias/categoria4.svg" alt="smartphone"width= "150px" height= "150px"></a>
+                    <a href="#"><img src="/assets/images/img-categorias/categoria6.svg" alt="cadeira gamer"width= "150px" height= "150px"></a>
+                    <a href="#"><img src="/assets/images/img-categorias/categoria7.svg" alt="laptop gamer"width= "150px" height= "150px"></a>
+                </div>
+            </div>
+
+        <div class="categorias-img">
+            <img src="/assets/images/background/categoria-image.png" alt="Imagem ilustrativa">
+        </div>
+
+        </div>
+    </section>
+
+    <section class="color-back">
+        <h2 id="lancamentos">LANÇAMENTOS</h2>
+        <div class="lancamentos">
+                <div class="playstationvr">
+                    <div class="icon-bar1">
+                        <a href="#"><img src="/assets/images/icons/carrinho2.svg" alt="Adicionar ao Carrinho" width="25px" height="25px" title="Adicionar ao carrinho"></a>
+                        <a class="fav-icon-1" href="#"><img src="/assets/images/icons/fav2.svg" alt="Adicionar aos favoritos" width="25px" height="25px" title="Adicionar aos favoritos"></a>
+                    </div>
+                                            
+                    <div class="lancamento1">
+                        <div class="playstationvr-img">
+                            <img src="/assets/images/img-tp/playstationvr-removebg-preview 1.svg" alt="Playstation vr">
+                        </div>
+                        
+                        <h4 class="texto-play1">Playstation Vr - <br> Zvr2 para PS4</h4>
+                        <h5 class="texto-play1">R$ 7.000,00 á vista</h5>
+                        <h6 class="texto-play1">ou 10x R$699,99</h6>
+
+                        <div class="btn-comprar-1">
+                            <button onclick="alertarUsuario('Ops... produto fora de estoque!')" class="btn-comprar">COMPRAR</button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="notebook">
+
+                    <div class="icon-bar2">
+                        <a href="#"><img src="/assets/images/icons/carrinho2.svg" alt="Adicionar ao Carrinho" width="25px" height="25px" title="Adicionar ao carrinho"></a>
+                        <a href="#"><img src="/assets/images/icons/fav2.svg" alt="Adicionar aos favoritos" width="25px" height="25px" title="Adicionar aos favoritos"></a>
+                    </div>
+                        
+                    <div class="lancamento2">
+                        <div class="notebook-img">
+                            <img src="/assets/images/img-tp/notebook.svg" alt="Notebook Gamer">
+                        </div>
+
+                        <h4 class="texto-note1">Notebook <br> Gamer 2022</h4>
+                        <h5 class="texto-note1">R$ 9.000,00 á vista</h5>
+                        <h6 class="texto-note1">ou 10x R$900,00</h6>
+                    
+                        <div class="btn-comprar-2">
+                            <button onclick="alertarUsuario('Ops... produto fora de estoque!')" class="btn-comprar">COMPRAR</button>
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+                <div class="CadeiraGamer">
+
+                    <div class="icon-bar3">
+                        <a href="#"><img src="/assets/images/icons/carrinho2.svg" alt="Adicionar ao Carrinho" width="25px" height="25px" title="Adicionar ao carrinho"></a>
+                        <a href="#"><img src="/assets/images/icons/fav2.svg" alt="Adicionar aos favoritos" width="25px" height="25px" title="Adicionar aos favoritos"></a>
+                    </div>
+                        
+                    <div class="lancamento3">
+                        <div class="cadeira-img">
+                            <img src="/assets/images/img-tp/CadeiraGamer.svg" alt="Cadeira Gamer">
+                        </div>
+
+                        <h4 class="texto-cadeira1">Cadeira Gamer <br> Vermelha</h4>
+                        <h5 class="texto-cadeira1">R$ 1.000,00 á vista</h5>
+                        <h6 class="texto-cadeira1">ou 10x R$99,99</h6>
+
+                        <div class="btn-comprar-3">
+                            <button onclick="alertarUsuario('Ops... produto fora de estoque!')" class="btn-comprar">COMPRAR</button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="cpu-intel">
+
+                    <div class="icon-bar4">
+                        <a href="#"><img src="/assets/images/icons/carrinho2.svg" alt="Adicionar ao Carrinho" width="25px" height="25px" title="Adicionar ao carrinho"></a>
+                        <a href="#"><img src="/assets/images/icons/fav2.svg" alt="Adicionar aos favoritos" width="25px" height="25px" title="Adicionar aos favoritos"></a>
+                    </div>
+                        
+                    <div class="lancamento4">
+                        <div class="cpu-img">
+                            <img src="/assets/images/img-tp/cpu.svg" alt="Cpu Intel Core gamer 2022">
+                        </div>
+
+                        <h4 class="texto-cpu-1">Cpu Intel Core <br> gamer 2022</h4>
+                        <h5 class="texto-cpu-1">R$ 2.000,00 á vista</h5>
+                        <h6 class="texto-cpu-1">ou 10x R$199,99</h6>
+                        
+                        <div class="btn-comprar-4">
+                            <button onclick="alertarUsuario('Ops... produto fora de estoque!')" class="btn-comprar">COMPRAR</button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="headset-gamer">
+
+                    <div class="icon-bar5">
+                        <a href="#"><img src="/assets/images/icons/carrinho2.svg" alt="Adicionar ao Carrinho" width="25px" height="25px" title="Adicionar ao carrinho"></a>
+                        <a href="#"><img src="/assets/images/icons/fav2.svg" alt="Adicionar aos favoritos" width="25px" height="25px" title="Adicionar aos favoritos"></a>
+                    </div>
+                        
+                    <div class="lancamento5">
+                        <div class="headset-img">
+                            <img src="/assets/images/img-tp/headset.svg" alt="Headset Gamer 2022">
+                        </div>
+
+                        <h4 class="texto-headset-1">Headset Verde <br> Gamer</h4>
+                        <h5 class="texto-headset-1">R$ 600,00 á vista</h5>
+                        <h6 class="texto-headset-1">ou 10x R$60,00</h6>
+
+                        <div class="btn-comprar-5">
+                            <button onclick="alertarUsuario('Ops... produto fora de estoque!')" class="btn-comprar">COMPRAR</button>
+                        </div>
+
+                    </div>
+
+                </div>
+        </div>
+
+    </section>
+
+    <section class="color-back">
+        <h2 id="destaques">DESTAQUES</h2>
+        <div class="lancamentos">
+                <div class="playstationvr">
+                    <div class="icon-bar1">
+                        <a href="#"><img src="/assets/images/icons/carrinho2.svg" alt="Adicionar ao Carrinho" width="25px" height="25px" title="Adicionar ao carrinho"></a>
+                        <a classi="fav-icon-1" href="#"><img src="/assets/images/icons/fav2.svg" alt="Adicionar aos favoritos" width="25px" height="25px" title="Adicionar aos favoritos"></a>
+                    </div>
+                                            
+                    <div class="lancamento1">
+                        <div class="playstationvr-img">
+                            <img src="/assets/images/img-tp/playstationvr-removebg-preview 1.svg" alt="Playstation vr">
+                        </div>
+                        
+                        <h4 class="texto-play1">Playstation Vr - <br> Zvr2 para PS4</h4>
+                        <h5 class="texto-play1">R$ 7.000,00 á vista</h5>
+                        <h6 class="texto-play1">ou 10x R$699,99</h6>
+
+                        <div class="btn-comprar-1">
+                            <button onclick="alertarUsuario('Ops... produto fora de estoque!')" class="btn-comprar">COMPRAR</button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="notebook">
+
+                    <div class="icon-bar2">
+                        <a href="#"><img src="/assets/images/icons/carrinho2.svg" alt="Adicionar ao Carrinho" width="25px" height="25px" title="Adicionar ao carrinho"></a>
+                        <a href="#"><img src="/assets/images/icons/fav2.svg" alt="Adicionar aos favoritos" width="25px" height="25px" title="Adicionar aos favoritos"></a>
+                    </div>
+                        
+                    <div class="lancamento2">
+                        <div class="notebook-img">
+                            <img src="/assets/images/img-tp/notebook.svg" alt="Notebook Gamer">
+                        </div>
+
+                        <h4 class="texto-note1">Notebook <br> Gamer 2022</h4>
+                        <h5 class="texto-note1">R$ 9.000,00 á vista</h5>
+                        <h6 class="texto-note1">ou 10x R$900,00</h6>
+                    
+                        <div class="btn-comprar-2">
+                            <button onclick="alertarUsuario('Ops... produto fora de estoque!')" class="btn-comprar">COMPRAR</button>
+                        </div>
+                        
+                    </div>
+
+                </div>
+
+                <div class="CadeiraGamer">
+
+                    <div class="icon-bar3">
+                        <a href="#"><img src="/assets/images/icons/carrinho2.svg" alt="Adicionar ao Carrinho" width="25px" height="25px" title="Adicionar ao carrinho"></a>
+                        <a href="#"><img src="/assets/images/icons/fav2.svg" alt="Adicionar aos favoritos" width="25px" height="25px" title="Adicionar aos favoritos"></a>
+                    </div>
+                        
+                    <div class="lancamento3">
+                        <div class="cadeira-img">
+                            <img src="/assets/images/img-tp/CadeiraGamer.svg" alt="Cadeira Gamer">
+                        </div>
+
+                        <h4 class="texto-cadeira1">Cadeira Gamer <br> Vermelha</h4>
+                        <h5 class="texto-cadeira1">R$ 1.000,00 á vista</h5>
+                        <h6 class="texto-cadeira1">ou 10x R$99,99</h6>
+
+                        <div class="btn-comprar-3">
+                            <button onclick="alertarUsuario('Ops... produto fora de estoque!')" class="btn-comprar">COMPRAR</button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="cpu-intel">
+
+                    <div class="icon-bar4">
+                        <a href="#"><img src="/assets/images/icons/carrinho2.svg" alt="Adicionar ao Carrinho" width="25px" height="25px" title="Adicionar ao carrinho"></a>
+                        <a href="#"><img src="/assets/images/icons/fav2.svg" alt="Adicionar aos favoritos" width="25px" height="25px" title="Adicionar aos favoritos"></a>
+                    </div>
+                        
+                    <div class="lancamento4">
+                        <div class="cpu-img">
+                            <img src="/assets/images/img-tp/cpu.svg" alt="Cpu Intel Core gamer 2022">
+                        </div>
+
+                        <h4 class="texto-cpu-1">Cpu Intel Core <br> gamer 2022</h4>
+                        <h5 class="texto-cpu-1">R$ 2.000,00 á vista</h5>
+                        <h6 class="texto-cpu-1">ou 10x R$199,99</h6>
+                        
+                        <div class="btn-comprar-4">
+                            <button onclick="alertarUsuario('Ops... produto fora de estoque!')" class="btn-comprar">COMPRAR</button>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="headset-gamer">
+
+                    <div class="icon-bar5">
+                        <a href="#"><img src="/assets/images/icons/carrinho2.svg" alt="Adicionar ao Carrinho" width="25px" height="25px" title="Adicionar ao carrinho"></a>
+                        <a href="#"><img src="/assets/images/icons/fav2.svg" alt="Adicionar aos favoritos" width="25px" height="25px" title="Adicionar aos favoritos"></a>
+                    </div>
+                        
+                    <div class="lancamento5">
+                        <div class="headset-img">
+                            <img src="/assets/images/img-tp/headset.svg" alt="Headset Gamer 2022">
+                        </div>
+
+                        <h4 class="texto-headset-1">Headset Verde <br> Gamer</h4>
+                        <h5 class="texto-headset-1">R$ 600,00 á vista</h5>
+                        <h6 class="texto-headset-1">ou 10x R$60,00</h6>
+
+                        <div class="btn-comprar-5">
+                            <button onclick="alertarUsuario('Ops... produto fora de estoque!')" class="btn-comprar">COMPRAR</button>
+                        </div>
+
+                    </div>
+
+                </div>
+        </div>
+
+    </section>
+
+    <section class="sobre-marca">
+
+        <div class="img-marca">
+            <img src="/assets/images/background/img-marca.svg" alt="Imagem" width="100%" height="100%">
+        </div>
+
+        <div class="texto-marca">
+            <h4 class="texto-marca"><strong>SOBRE A MARCA</strong></h4>
+            <p class="texto-marca">Somos a Game Mania, uma loja voltada especialmente para o público <br> gamer e quem ama tecnologia. Vendemos aparelhos tecnológicos para <br> uma loja localizada no centro de São Paulo. Com o objetivo de expandir as <br> vendas para todo o Brasil, desenvolvemos o nosso e-commerce. <br> Mais perto, mais fácil e mais rápido! <br> Tudo que você procura em um só lugar, com apenas um click, o que <br> você deseja chegará na sua porta.</p>
+        </div>
+
+    </section>
+
+    <button onclick="backToTop();" id="btnTop">
+        <img src="/assets/images/icons/arrow up.svg" alt="Voltar ao topo" width="30px" height="30px" title="Voltar ao topo">
+    </button>
+
+</main>
+
+<footer>
+
+    <div class="line"></div>
+
+    <section class="footer">
+        <div class="logo-footer">
+            <img src="/assets/images/logo-img/logoGM-footer.svg" alt="Logo Game Mania" width="100%" height="100%">
+            <a href="https://sp.senai.br/" target="_blank"><img src="/assets/images/logo-img/logoSENAI-footer.svg" alt="Logo SENAI" width="100%" height="100%"></a>
+        </div>
+        
+        <div class="footer-1">
+
+            <ul class="texto-footer">
+                <li><strong>Institucional</strong></li>
+                <li><a href="#">Sobre a Game Mania</a></li>
+                <li><a href="#">Políticas do Site e Marketplace</a></li>
+                <li><a href="#">Políticas de Privacidade</a></li>
+                <li><a href="#">Exerça seus Direitos de Privacidade</a></li>
+                <li><a href="#">Prêmios</a></li>
+                <li><a href="#">Trabalhe Conosco</a></li>
+                <li><a href="#">Código de Defesa do Consumidor</a></li>
+                <li><a href="#">Código de Conduta Ética</a></li>
+            </ul>
+
+            <ul class="social-media">
+                <li class="texto-footer"><strong>Mídias Sociais</strong></li>
+                <div class="logo-sedes-sociais">
+                    <li><a href="#"><img src="/assets/images/icons/icons8-whatsapp 1.svg" alt="whatsapp" width="25px" height="25px"></a></li>
+                    <li><a href="#"><img src="/assets/images/icons/icons8-youtube 1.svg" alt="youtube" width="25px" height="25px"></a></li>
+                    <li><a href="#"><img src="/assets/images/icons/icons8-facebook 1.svg" alt="facebook" width="25px" height="25px"></a></li>
+
+                    <li><a href="#"><img src="/assets/images/icons/icons8-twitter 1.svg" alt="twitter" width="25px" height="25px"></a></li>
+                    <li><a href="#"><img src="/assets/images/icons/icons8-instagram 1.svg" alt="instagram" width="25px" height="25px"></a></li>
+                </div>
+            </ul>
+        </div>
+
+        <div class="footer-2">
+            <ul class="texto-footer">
+                <li><strong>Atendimento</strong></li>
+                <li><strong>Horário de atendimento:</strong></li>
+                <li><a href="#">08:00 às 20:00 - <br> Segunda a Sábado, <br> horário de Brasília <br>(Exceto domingo e feriados, em Limeira-SP)</a></li>
+                <li><strong>Endereço:</strong></li>
+                <li><a href="#"> Rua XXXXXX XXXXX, 0000 - <br> 9° andar - Centro <br> Limeira/SP - CEP: 0000-000</a></li>
+                <li><strong>Central SAC:</strong></li>
+                <li><a href="#">(99) 9 9999 - 9999</a></li>
+                <li><strong>E-mail:</strong></li>
+                <li><a href="#">faleconosco@gamemania.com.br</a></li>
+            </ul>
+        </div>
+    </section>
+
+</footer>
