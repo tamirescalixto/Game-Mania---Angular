@@ -1,30 +1,23 @@
-// Menu hamburguer
-const hamburguer = document.querySelector(".hamburguer");
-const menuNav = document.querySelector(".nav-menu");
+// // Login form
+// function logar() {
 
-hamburguer.addEventListener("click", () => {
-    hamburguer.classList.toggle('active');
-    menuNav.classList.toggle('active');
-})
+//     var email = document.getElementById('email').value;
+//     var senha = document.getElementById('senha').value;
 
-// Login form
-function logar() {
+//     if (document.getElementById("email").value == "") {
+//         alert('Por favor, preencha o campo email!');
+//         document.getElementById("email").focus();
+//         return false
+//     } else {
+//         console.log(email);
+//     }
 
-    var email = document.getElementById('email').value;
-    var senha = document.getElementById('senha').value;
-
-    if (document.getElementById("email").value == "") {
-        alert('Por favor, preencha o campo email!');
-        document.getElementById("email").focus();
-        return false
-    } 
-
-    if (document.getElementById("senha").value == "") {
-        alert('Por favor, preencha o campo senha!');
-        document.getElementById("senha").focus();
-        return false;
-    } else {
-        location.href = "index.html";
-    }
+//     if (document.getElementById("senha").value == "") {
+//         alert('Por favor, preencha o campo senha!');
+//         document.getElementById("senha").focus();
+//         return false;
+//     } else {
+//         console.log(senha);
+//     }
     
-}
+// }

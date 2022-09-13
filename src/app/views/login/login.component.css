@@ -123,3 +123,15 @@ label {
 .login_reset:hover {
     color: #1B264F;
 }
+
+#mensagem {
+    font-family: 'Montserrat', sans-serif;
+    color: #851A00;
+    font-weight: 500;
+    font-size: 10px;
+    padding-top: 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
